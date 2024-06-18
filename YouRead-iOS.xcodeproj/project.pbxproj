@@ -8,17 +8,41 @@
 
 /* Begin PBXBuildFile section */
 		5DDD41D22C21C6CA00205153 /* YouRead_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDD41D12C21C6CA00205153 /* YouRead_iOSApp.swift */; };
-		5DDD41D42C21C6CA00205153 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDD41D32C21C6CA00205153 /* ContentView.swift */; };
+		5DDD41D42C21C6CA00205153 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDD41D32C21C6CA00205153 /* HomeView.swift */; };
 		5DDD41D62C21C6CC00205153 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DDD41D52C21C6CC00205153 /* Assets.xcassets */; };
 		5DDD41D92C21C6CC00205153 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DDD41D82C21C6CC00205153 /* Preview Assets.xcassets */; };
+		5DDD41E12C21CD2B00205153 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 5DDD41E02C21CD2B00205153 /* FirebaseAnalytics */; };
+		5DDD41E32C21CD2B00205153 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 5DDD41E22C21CD2B00205153 /* FirebaseAuth */; };
+		5DDD41E52C21CD2B00205153 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 5DDD41E42C21CD2B00205153 /* FirebaseFirestore */; };
+		5DDD41E72C21CD2B00205153 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 5DDD41E62C21CD2B00205153 /* FirebaseStorage */; };
+		5DDD41EF2C21CDFD00205153 /* BookCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDD41EC2C21CDFC00205153 /* BookCardView.swift */; };
+		5DDD41F02C21CDFD00205153 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDD41ED2C21CDFD00205153 /* CategoryView.swift */; };
+		5DDD41F12C21CDFD00205153 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDD41EE2C21CDFD00205153 /* CardView.swift */; };
+		5DDD41F52C21CE0E00205153 /* PDFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDD41F22C21CE0E00205153 /* PDFView.swift */; };
+		5DDD41F62C21CE0E00205153 /* PDFViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDD41F32C21CE0E00205153 /* PDFViewRepresentable.swift */; };
+		5DDD41F92C21CE1400205153 /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDD41F72C21CE1400205153 /* SummaryView.swift */; };
+		5DDD41FC2C21CE2A00205153 /* BookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDD41FA2C21CE2A00205153 /* BookModel.swift */; };
+		5DDD41FD2C21CE2A00205153 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDD41FB2C21CE2A00205153 /* CategoryModel.swift */; };
+		5DDD41FF2C21CE3D00205153 /* CategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDD41FE2C21CE3D00205153 /* CategoryViewModel.swift */; };
+		5DDD42012C21D1E600205153 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5DDD42002C21D1E600205153 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5DDD41CE2C21C6CA00205153 /* YouRead-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YouRead-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DDD41D12C21C6CA00205153 /* YouRead_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouRead_iOSApp.swift; sourceTree = "<group>"; };
-		5DDD41D32C21C6CA00205153 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5DDD41D32C21C6CA00205153 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		5DDD41D52C21C6CC00205153 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DDD41D82C21C6CC00205153 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5DDD41EC2C21CDFC00205153 /* BookCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookCardView.swift; sourceTree = "<group>"; };
+		5DDD41ED2C21CDFD00205153 /* CategoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		5DDD41EE2C21CDFD00205153 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		5DDD41F22C21CE0E00205153 /* PDFView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFView.swift; sourceTree = "<group>"; };
+		5DDD41F32C21CE0E00205153 /* PDFViewRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFViewRepresentable.swift; sourceTree = "<group>"; };
+		5DDD41F72C21CE1400205153 /* SummaryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
+		5DDD41FA2C21CE2A00205153 /* BookModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookModel.swift; sourceTree = "<group>"; };
+		5DDD41FB2C21CE2A00205153 /* CategoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		5DDD41FE2C21CE3D00205153 /* CategoryViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryViewModel.swift; sourceTree = "<group>"; };
+		5DDD42002C21D1E600205153 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +50,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DDD41E12C21CD2B00205153 /* FirebaseAnalytics in Frameworks */,
+				5DDD41E72C21CD2B00205153 /* FirebaseStorage in Frameworks */,
+				5DDD41E32C21CD2B00205153 /* FirebaseAuth in Frameworks */,
+				5DDD41E52C21CD2B00205153 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +79,11 @@
 		5DDD41D02C21C6CA00205153 /* YouRead-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				5DDD42002C21D1E600205153 /* GoogleService-Info.plist */,
+				5DDD41EA2C21CDC000205153 /* ViewModels */,
+				5DDD41E92C21CDAA00205153 /* Models */,
+				5DDD41E82C21CD9E00205153 /* Views */,
 				5DDD41D12C21C6CA00205153 /* YouRead_iOSApp.swift */,
-				5DDD41D32C21C6CA00205153 /* ContentView.swift */,
 				5DDD41D52C21C6CC00205153 /* Assets.xcassets */,
 				5DDD41D72C21C6CC00205153 /* Preview Content */,
 			);
@@ -65,6 +96,61 @@
 				5DDD41D82C21C6CC00205153 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5DDD41E82C21CD9E00205153 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5DDD41EB2C21CDE100205153 /* HomeScreen */,
+				5DDD41F82C21CE1400205153 /* SummaryScreen */,
+				5DDD41F42C21CE0E00205153 /* PDFViewer */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5DDD41E92C21CDAA00205153 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5DDD41FA2C21CE2A00205153 /* BookModel.swift */,
+				5DDD41FB2C21CE2A00205153 /* CategoryModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5DDD41EA2C21CDC000205153 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5DDD41FE2C21CE3D00205153 /* CategoryViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5DDD41EB2C21CDE100205153 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				5DDD41D32C21C6CA00205153 /* HomeView.swift */,
+				5DDD41EC2C21CDFC00205153 /* BookCardView.swift */,
+				5DDD41EE2C21CDFD00205153 /* CardView.swift */,
+				5DDD41ED2C21CDFD00205153 /* CategoryView.swift */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		5DDD41F42C21CE0E00205153 /* PDFViewer */ = {
+			isa = PBXGroup;
+			children = (
+				5DDD41F22C21CE0E00205153 /* PDFView.swift */,
+				5DDD41F32C21CE0E00205153 /* PDFViewRepresentable.swift */,
+			);
+			path = PDFViewer;
+			sourceTree = "<group>";
+		};
+		5DDD41F82C21CE1400205153 /* SummaryScreen */ = {
+			isa = PBXGroup;
+			children = (
+				5DDD41F72C21CE1400205153 /* SummaryView.swift */,
+			);
+			path = SummaryScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +169,12 @@
 			dependencies = (
 			);
 			name = "YouRead-iOS";
+			packageProductDependencies = (
+				5DDD41E02C21CD2B00205153 /* FirebaseAnalytics */,
+				5DDD41E22C21CD2B00205153 /* FirebaseAuth */,
+				5DDD41E42C21CD2B00205153 /* FirebaseFirestore */,
+				5DDD41E62C21CD2B00205153 /* FirebaseStorage */,
+			);
 			productName = "YouRead-iOS";
 			productReference = 5DDD41CE2C21C6CA00205153 /* YouRead-iOS.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +203,9 @@
 				Base,
 			);
 			mainGroup = 5DDD41C52C21C6CA00205153;
+			packageReferences = (
+				5DDD41DF2C21CD2B00205153 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 5DDD41CF2C21C6CA00205153 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DDD41D92C21C6CC00205153 /* Preview Assets.xcassets in Resources */,
+				5DDD42012C21D1E600205153 /* GoogleService-Info.plist in Resources */,
 				5DDD41D62C21C6CC00205153 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +233,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DDD41D42C21C6CA00205153 /* ContentView.swift in Sources */,
+				5DDD41D42C21C6CA00205153 /* HomeView.swift in Sources */,
+				5DDD41EF2C21CDFD00205153 /* BookCardView.swift in Sources */,
+				5DDD41F02C21CDFD00205153 /* CategoryView.swift in Sources */,
+				5DDD41FF2C21CE3D00205153 /* CategoryViewModel.swift in Sources */,
+				5DDD41FD2C21CE2A00205153 /* CategoryModel.swift in Sources */,
+				5DDD41FC2C21CE2A00205153 /* BookModel.swift in Sources */,
+				5DDD41F52C21CE0E00205153 /* PDFView.swift in Sources */,
 				5DDD41D22C21C6CA00205153 /* YouRead_iOSApp.swift in Sources */,
+				5DDD41F92C21CE1400205153 /* SummaryView.swift in Sources */,
+				5DDD41F12C21CDFD00205153 /* CardView.swift in Sources */,
+				5DDD41F62C21CE0E00205153 /* PDFViewRepresentable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +385,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +415,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -344,6 +451,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5DDD41DF2C21CD2B00205153 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.28.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5DDD41E02C21CD2B00205153 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5DDD41DF2C21CD2B00205153 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		5DDD41E22C21CD2B00205153 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5DDD41DF2C21CD2B00205153 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		5DDD41E42C21CD2B00205153 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5DDD41DF2C21CD2B00205153 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		5DDD41E62C21CD2B00205153 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5DDD41DF2C21CD2B00205153 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5DDD41C62C21C6CA00205153 /* Project object */;
 }
